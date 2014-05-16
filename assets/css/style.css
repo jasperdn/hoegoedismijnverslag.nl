@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+*  {
+	font-family: 'Open Sans', sans-serif;
+	color: #444444;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a {
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+}
+
+body {
+	background-color: #EBEEF7;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+header {
+	background-color: #51AEE7;
+	border-bottom: 3px solid #3895CE;
+	padding: 20px 0;
+}
+
+header h4 {
+	margin: 0;
+	color: #FFF;
+	font-weight: 500;
+}
+
+header h4 i,
+header h4 a {
+	color: #FFF;
+}
+
+header h4 a:hover {
+	color: #444444;
+	text-decoration: none;
+}
+
+header .register {
+	text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+#content {
+	margin-top: 150px;
+}
+
+#introduction h1 {
+	font-size: 50px;
+}
+
+#introduction h2 {
+	margin-left: 30px;
+}
+
+#content .steps {
+	margin-top: 50px;
+}
+
+#content .step {
+	text-align: center;
+}
+
+#content .step h3 {
+	font-size: 50px;
+}
+
+#content .step p {
+	font-size: 16px;
+}
